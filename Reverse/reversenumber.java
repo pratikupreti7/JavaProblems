@@ -9,6 +9,7 @@ public class reversenumber{
         while(number>0){
             int rem=number%10;
             reverse = reverse * 10 + rem;  
+            System.out.println(reverse);
             number=number/10;
           
         }
